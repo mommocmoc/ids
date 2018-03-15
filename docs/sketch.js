@@ -14,7 +14,7 @@ function draw() {
   curS = millis();
 	noStroke();
   fill(shapeColor)
-	ellipse(windowWidth/2,windowHeight/2,10+s,10+s);
+	ellipse(windowWidth/2,windowHeight/2,15+s,15+s);
   if(curS-preS > 1000){
     preS = curS ;
     colorChange();
