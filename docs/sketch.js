@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
 	clear();
-	background(100,100,100);
+	background(shapeColor);
 	s=50+second()*10;
   curS = millis();
 	noStroke();
